@@ -4,12 +4,11 @@
  * @head: head pointer
  * Return: nodes
  */
-
 int is_palindrome(listint_t **head)
 {
 	listint_t *temp = *head, *temp2 = *head;
-	int x, y, len;
-	int arr[5000];
+	int array[5000];
+	int len, j, i;
 
 	if (!head)
 	{
@@ -23,15 +22,15 @@ int is_palindrome(listint_t **head)
 	{
 		temp2 = temp2->next;
 	}
-	for (x = 0; x <= len; x++)
+	for (i = 0; i <= len; i++)
 	{
-		arr[x] = temp->n;
+		array[i] = temp->n;
 		temp = temp->next;
 	}
 
-	for (y = 0, len; y < len; y++, len--)
+	for (j = 0, len; j < len; j++, len--)
 	{
-		if (arr[y] != arr[len])
+		if (array[j] != array[len])
 		{
 			return (0);
 		}
