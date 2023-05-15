@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * palindrom - prints all elements of listint_t list
+ * is_palindrom - prints all elements of listint_t list
  * @head: head
  * Return: 0 (not a palindrome), 1 (a palindrome)
  */
