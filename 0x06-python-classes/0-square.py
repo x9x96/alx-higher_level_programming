@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""oops seems like docstring comments are now mandatory here"""
+"""seems like docstring comments are now mandatory here"""
 
 
-class Square:	
+class Square:
     """and apparently here as well"""
     pass
