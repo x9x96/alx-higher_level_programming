@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 
-"""declearing the function"""
+"""Define a class square"""
 
 
 class Square:
-    """blah"""
+    """Represent a square."""
 
     def __init__(self, size):
         """Initialize a new Square.
         Args:
             size (int): The size of the new square.
         """
-        self._size = size
+        self.__size = size
